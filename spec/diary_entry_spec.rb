@@ -18,6 +18,7 @@ Rspec.describe DiaryEntry do
       expect(diary_entry.count_words).to eq 0
     end
   end
+  
 
   describe "#reading_time" do
     context "given a wpn of some sensible number(200)" do
